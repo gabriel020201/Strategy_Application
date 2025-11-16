@@ -32,7 +32,6 @@ class Notifier {
   }
 
   notify(message: string, recipient: string): void {
-    // Strategy keeps delivery variation away from the application core.
     this.strategy.send(message, recipient);
   }
 }
