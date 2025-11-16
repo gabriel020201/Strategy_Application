@@ -1,0 +1,17 @@
+{
+  "name": "strategy-pattern-example",
+  "version": "1.0.0",
+  "description": "Demo project illustrating the Strategy design pattern in TypeScript.",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.5",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

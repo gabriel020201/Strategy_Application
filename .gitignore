@@ -1,0 +1,6 @@
+# Ignorar dependências e build
+node_modules/
+dist/
+.todo.md/
+
+# Nota: todo.md NÃO está listado aqui para garantir que seja versionado
