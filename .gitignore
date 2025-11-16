@@ -1,4 +1,2 @@
-# Ignorar dependências e build
 node_modules/
 dist/
-.todo.md
